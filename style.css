@@ -146,6 +146,7 @@ body {
         outline: 2px solid green;
         display: flex;
         justify-content: space-between;
+        text-align: center;
 
 }
 .things-we-do .col-left, .col-right {
