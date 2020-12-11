@@ -5,19 +5,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
 
-
-html {
-
-}
-
-
 body {
     margin:1.5em;
 
-}
-
-.FirstPage {
-    /* height: 100vh; */
 }
 
 .BackgroundImage {
@@ -199,11 +189,11 @@ body {
 
 
 .things-we-do {
-
         display: flex;
         justify-content: space-between;
         text-align: center;
         align-items: center;
+
 }
 .things-we-do h6 {
     margin: 0 2em 0 2em;
@@ -239,13 +229,15 @@ body {
     padding: 0.5em;
     margin: 1em;
 }
-
-
-.OurClientsLoveOurWork {
-
-    margin: 1em;
-    padding: 0.5em;
+.branding {
+    margin-left: 0;
 }
+.graphic {
+    margin-right: 0;
+}
+
+
+
 .our-clients {
     background-color: whitesmoke;
     text-align: center;
@@ -255,6 +247,7 @@ body {
 }
 .our-clients h2 {
     font-size: 40px;
+    margin-top: 0;
     margin-bottom: 0px;
     font-family: Montserrat, sans-serif;
     font-weight: 700;
