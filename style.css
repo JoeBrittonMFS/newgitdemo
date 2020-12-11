@@ -7,12 +7,13 @@
 
 
 html {
-   background-color:whitesmoke;
+
 }
+
 
 body {
     margin:1.5em;
-    border:1px solid red;
+
 }
 
 .FirstPage {
@@ -20,9 +21,10 @@ body {
 }
 
 .BackgroundImage {
-    outline: 2px solid green;
+
     margin-bottom: 1.5em;
     background-image: url(https://daks2k3a4ib2z.cloudfront.net/5527a015715879bc5767ece2/5527a395e02754bb57746389_slider1.jpg);
+    background-size: cover;
     /* height: 100%; */
     height: 100vh;
     padding: 1em;
@@ -66,7 +68,7 @@ body {
 }
 
 .heading-1 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: Montserrat, sans-serif;
     font-size: 2rem;
     letter-spacing: -3px;
     float: right;
@@ -102,11 +104,17 @@ body {
 }
 
 .creative-and-fresh, .hip-and-funky {
-    outline: 2px solid blue;
+
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
-.creative-and-fresh .col-left,.col-right {
+.creative-and-fresh, .hip-and-funky, button {
+    background-color: whitesmoke;
+
+    padding: 1em 1.5em 1em 1.5em;
+}
+.creative-and-fresh .col-left, .col-right {
     width: 50%;
 }
 .creative-and-fresh .col-left {
@@ -117,10 +125,29 @@ body {
 
 .creative-and-fresh .col-right {
     text-align: center;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+.creative-and-fresh .col-right h3 {
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+.creative-and-fresh .col-right p {
+    margin-top: 0;
+    font-size: 12px;
+}
+
+.col-left, .col-right, h3 {
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+}
+.col-left h3 {
+    font-size: 40px;
 }
 
 
-.hip-and-funky .col-left,.col-right {
+.hip-and-funky .col-left, .col-right {
+    
     width: 50%;
 }
 .hip-and-funky .col-right {
@@ -129,31 +156,225 @@ body {
     background-size: cover;
 }
 .hip-and-funky .col-left {
+    padding-left: 3em;
+    padding-right: 3em;
     text-align: center;
+}
+.hip-and-funky .col-left h3 {
+    margin-bottom: 5px;
+}
+.hip-and-funky .col-left p {
+    margin-top: 0;
+    font-size: 12px;
 }
 
 
 .numbers-section {
     display: flex;
     justify-content: space-evenly;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    
+}
+.numbers-section h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 42px;
+    line-height: 40px;
+    font-weight: 700;
+    letter-spacing: -3px;
+    color: #333;
 }
 .numbers-section p {
     margin: 0;
+    color: #333;
+
+    font-family: Vollkorn, serif;
+    font-size: 16px;
+    line-height: 22px;
+    font-style: italic;
+    font-weight: 400;
 }
 
 
 .things-we-do {
-        outline: 2px solid green;
+
         display: flex;
         justify-content: space-between;
         text-align: center;
-
+        align-items: center;
+}
+.things-we-do h6 {
+    margin: 0 2em 0 2em;
+}
+.things-we-do h3 {
+    font-size: 40px;
+    margin-bottom: 0px;;
+}
+.things-we-do p {
+    margin-top: 30px;
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-bottom: 30px;
 }
 .things-we-do .col-left, .col-right {
     width: 50%;
 }
 .things-we-do .col-left {
     background-image: url(https://daks2k3a4ib2z.cloudfront.net/5527a015715879bc5767ece2/55290b76b9c6422c42122a30_desk2.jpeg);
-    height: 50vh;
+    height: 75vh;
     background-size: cover;
+}
+
+
+.branding-web-graphic {
+
+    display: flex;
+    text-align: center;
+}
+
+.branding, .web, .graphic {
+    background-color: whitesmoke;
+    padding: 0.5em;
+    margin: 1em;
+}
+
+
+.OurClientsLoveOurWork {
+
+    margin: 1em;
+    padding: 0.5em;
+}
+.our-clients {
+    background-color: whitesmoke;
+    text-align: center;
+    padding-left: 6em;
+    padding-right: 6em;
+    line-height: 40px;
+}
+.our-clients h2 {
+    font-size: 40px;
+    margin-bottom: 0px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    letter-spacing: -3px;
+}
+.our-clients h6 {
+    margin-top: 0px;
+    font-size: 12px;
+}
+.our-clients p {
+    margin-top: 60px;
+    font-size: 20px;
+}
+
+
+.LatestCreations {
+    display: flex;
+}
+.creation {
+    margin: 0;
+    padding: 0;
+}
+
+.creation, .creation-pic1, .creation-pic2, .creation-pic3 {
+    width: 25%;
+    height: 50vh;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+
+.creation-pic1 {
+    background-image: url("https://daks2k3a4ib2z.cloudfront.net/5527a015715879bc5767ece2/552aa53c0108cf394df63840_port1-small.jpg");
+
+    background-size: cover;
+}
+.creation-pic2 {
+    background-image: url("https://daks2k3a4ib2z.cloudfront.net/5527a015715879bc5767ece2/552aa5cc0108cf394df63845_port2-small.jpg");
+
+    background-size: cover;
+}
+.creation-pic3 {
+    background-image: url("https://daks2k3a4ib2z.cloudfront.net/5527a015715879bc5767ece2/552aacfa416f90126f4e8596_port3-small.jpg");
+
+    background-size: cover;
+}
+
+
+.LatestCreations2 {
+    display: flex;
+}
+.creation-pic4, .creation-pic5, .creation-pic6, .creation-pic7 {
+    width: 25%;
+    height: 50vh;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+
+.creation-pic4 {
+    background-image: url("https://daks2k3a4ib2z.cloudfront.net/5527a015715879bc5767ece2/552b90eaede1286e5f007d06_port4-small.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.creation-pic5 {
+    background-image: url("https://daks2k3a4ib2z.cloudfront.net/5527a015715879bc5767ece2/552b9102ede1286e5f007d0b_port5-small.jpg");
+    background-size: cover;
+}
+.creation-pic6 {
+    background-image: url("https://daks2k3a4ib2z.cloudfront.net/5527a015715879bc5767ece2/552b9118ede1286e5f007d0f_port6-small.jpg");
+    background-size: cover;
+}
+.creation-pic7 {
+    background-image: url("https://daks2k3a4ib2z.cloudfront.net/5527a015715879bc5767ece2/552b912a18c4f26f5f653ab3_port7-small.jpg");
+    background-size: cover;
+}
+
+
+.write-us-a-letter {
+    text-align: center;
+}
+.write-us-a-letter h3 {
+    font-family: Montserrat, sans-serif;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+.write-us-a-letter p {
+    margin-bottom: 5em;
+}
+.write-us-a-letter label {
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+}
+.write-us-a-letter input {
+    width: 50%;
+    height: 5vh;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+
+.footer {
+    background-color: #242424;
+    padding: 3em;
+    margin-top: 6em;
+}
+.footer p {
+    color: white;
+    font-size: 15px;
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+}
+footer img {
+    width: 5em;
+    float: left;
+}
+
+.footer h6 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #7d7d7d;
+    margin-top: 0;
+    margin-bottom: 40px;
 }
